@@ -1,0 +1,37 @@
+h1{
+    font-family: arial, Helvetica, sans-serif;
+    align-items:baseline;
+    font-size: 48px;
+    font-style: normal;
+    font-variant: small-caps;
+    color: #ff0000;
+    background-color: yellow;
+    margin-top: 50px;
+    padding: 50px 0px 50px 25px;
+}
+h2{
+    text-transform: uppercase;
+    font: arial, helvetica, sans-serif;
+    color: #0000ff;
+    background-color: orange;
+    border: double 10px grey;
+    padding:25px;
+}
+p{
+    font-variant: normal;
+    text-align: left;
+    text-indent: 20px;
+    color: black;
+    text-transform: capitalize;
+    margin-bottom: 50px;
+    
+}
+
+.destaque{
+    color: red;
+    background-color: grey;
+}
+
+ul{
+    list-style: inside;
+}
