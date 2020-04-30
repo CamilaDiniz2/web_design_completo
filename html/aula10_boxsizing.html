@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang = "pt-br">
+    <head>
+        <title>Primeira página usando CSS</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Camila Diniz">
+        <meta name="description" content="Esta página contém os primeiros passos no uso de CSS com HTML.">
+        <meta name="keywords" content="html5, tecnologia, curso, CSS">
+
+        <style>
+            div{
+                background: orange;
+                width: 150px;
+                height: 100px;
+                margin: 10px;
+            }
+
+             /* Sem estilo border-box */
+            
+            #div1{
+                padding: 25px;
+            }
+
+            /* Estilo border-box */
+            /* Com o border-box, o tamanho se limita ao width e ao height */
+            #div2{
+                padding: 25px;
+                box-sizing: border-box;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1> Estrutura básica do CSS</h1>
+
+        <div id ="div1">Teste</div>
+        <div id ="div2"> Teste</div>
+    </body>
+</html>

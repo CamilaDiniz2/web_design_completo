@@ -9,6 +9,7 @@ body{
     height: 500px;
     background-position: right center;
     background-size: cover;
+    border: 1px solid transparent;
 }
 
 .hero-content{
@@ -17,10 +18,44 @@ body{
     margin-top: 150px;
 }
 
+.hero-content p{
+    background-color: rgba(0,0,0, 0.8);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: solid 2px white;
+}
+
 .hero-content h1{
     text-transform: uppercase;
     font-size: 46px;
     text-shadow: 5px 5px 5px #333;
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 12px;
+    border: 1px solid white;
+}
+
+.hero nav ul{
+    text-align: right;
+    margin: 10px 25px 0 0;
+}
+
+.hero nav a{
+    background-color:rgba(0, 0, 0, 0.3);
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover{
+    background-color:rgba(0, 0, 0, 0.5);
 }
 
 main{
@@ -30,16 +65,42 @@ main{
 }
 .content-section{
     background-color: #fff;
-    padding: 15px;
+    padding: 10px;
     margin-top: 15px;
+    overflow: auto;
+    
 }
 
+.card{
+    width: 32%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.card p{
+    background-color: rgb(39, 38, 38);
+    color: white;
+    margin: 0;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.card-1, .card-2{
+    margin-right: 2%;
+}
 
 .section-article{
     color: black;
     background-color: rgb(218, 214, 214);
     padding: 10px;
-    border-bottom: solid 3px rgb(41, 40, 40);
+    border-bottom: solid 1px rgb(41, 40, 40);
     margin: 0;
 
 }
